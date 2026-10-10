@@ -14,6 +14,4 @@ spec:
     spec:
       containers:
         - name: aws-devops-demo
-          image: discoverdevops/aws-devops-demo:latest
-          ports:
-            - containerPort: 80
+          image: ishanrohatgi/aws-jenkins-docker-kubernetes-cicd:latest
